@@ -8,7 +8,7 @@ import copy
 # anagram = [['oof', 'foo', 'ofo'], ['aaf'], ['lake', 'kale'], ['bud']]
 
 
-## SOLUTION 1
+# SOLUTION 1
 ##
 def calculate_anagram(words):
     anagram = list()
@@ -31,5 +31,6 @@ def calculate_anagram(words):
             anagram.append(list(inner_anagram))
     return anagram
 
-print calculate_anagram(['oof', 'foo', 'foo', 'ofo', 'aaf', 'foo', 'lake', 'kale', 'bud', 'ofo'])
 
+print (calculate_anagram(['oof', 'foo', 'foo', 'ofo', 'aaf', 'foo', 'lake',
+                          'kale', 'bud', 'ofo']))
