@@ -1,2 +1,6 @@
 .idea
 .pyc
+closeIO.py
+perceptron
+__pycache__
+find_cheap_flights
